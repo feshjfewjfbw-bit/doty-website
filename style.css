@@ -328,3 +328,64 @@ footer {
     font-size: 0.7rem;
   }
 }
+
+/* Hero Modal */
+.hero-modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero-modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-card);
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  color: var(--text-color);
+  z-index: 101;
+}
+
+.hero-modal-close {
+  color: var(--text-color);
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-modal-close:hover,
+.hero-modal-close:focus {
+  color: var(--accent-gold);
+}
+
+.modal-hero-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 1rem;
+}
+
+.modal-hero-name {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  color: var(--accent-gold);
+}
+
+.modal-hero-lore {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+}

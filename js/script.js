@@ -118,29 +118,59 @@ function setupFilters(allHeroes) {
 }
 
 function setupHeroDetailHandlers(heroes) {
-    // Handle hero card clicks for detail page
+    // Handle hero card clicks - show modal
     document.querySelectorAll('.hero-card').forEach(card => {
         card.addEventListener('click', function(e) {
             // Don't navigate if clicking on ability spans
             if (e.target.className === 'ability' || e.target.parentElement.className === 'ability') return;
 
             const heroId = this.getAttribute('data-id');
-            openHeroDetail(heroId);
+            showHeroModal(heroId);
         });
     });
 }
 
-function openHeroDetail(heroId) {
+function showHeroModal(heroId) {
     const hero = window.allHeroes.find(h => h.id == heroId);
     if (!hero) return;
 
-    // Update URL with hero id parameter
-    const searchParams = new URLSearchParams();
-    searchParams.set('id', hero.id);
-    searchParams.set('name', hero.name.replace(/\s+/g, '-').toLowerCase());
-    window.history.pushState({ page: 'hero-detail', id: hero.id }, '', `?${searchParams.toString()}`);
+    // Show the modal
+    const modal = document.getElementById('hero-modal');
+    if (!modal) return;
 
-    renderHeroDetail(hero);
+    // Set modal content
+    const modalImg = document.getElementById('modal-hero-photo');
+    const modalName = document.getElementById('modal-hero-name');
+    const modalLore = document.getElementById('modal-hero-lore');
+
+    if (modalImg) modalImg.src = hero.photo;
+    if (modalName) modalName.textContent = hero.name;
+    if (modalLore) modalLore.innerHTML = hero.lore || 'No description available.';
+
+    // Show modal
+    modal.style.display = 'block';
+
+    // Get the close button and add click handler
+    const span = document.getElementsByClassName("hero-modal-close")[0];
+    if (span) {
+        span.onclick = function() {
+            modal.style.display = 'none';
+        };
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+}
+
+function closeHeroModal() {
+    const modal = document.getElementById('hero-modal');
+    if (modal) {
+        modal.style.display = 'none';
+    }
 }
 
 function renderHeroDetail(hero) {
