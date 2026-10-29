@@ -7,7 +7,7 @@
       "primaryAttr": "agi",
       "roles": ["Carry", "Escape"],
       "abilities": ["Mana Break", "Blink", "Spell Shield", "Mana Void"],
-      "photo": "https://opendota.com/cdn/heroposes/anti_mage.jpg"
+      "photo": "https://placehold.co/400x250/2c3e50/ffffff&text=Anti-Mage"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
       "abilities": ["Storm Hammer", "God Strength", "Warcry", "Silver Edge"],
-      "photo": "https://opendota.com/cdn/heroposes/sven.jpg"
+      "photo": "https://placehold.co/400x250/4a4a4a/ffffff&text=Sven"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "primaryAttr": "str",
       "roles": ["Fighter", "Carry"],
       "abilities": ["Dragon Form", "Fire Breath", "Dragon's Blood", "Splash Damage"],
-      "photo": "https://opendota.com/cdn/heroposes/dragon_knight.jpg"
+      "photo": "https://placehold.co/400x250/5a5a5a/ffffff&text=Dragon+Knight"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "primaryAttr": "int",
       "roles": ["Support", "Escape"],
       "abilities": ["Waning Rift", "Illusory Orb", "Phase Shift", "Dreamscape"],
-      "photo": "https://opendota.com/cdn/heroposes/puck.jpg"
+      "photo": "https://placehold.co/400x250/6a6a6a/ffffff&text=Puck"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "primaryAttr": "int",
       "roles": ["Support", "Nuker"],
       "abilities": ["Crystal Nova", "Frostbite", "Freezing Field", "Arcane Aura"],
-      "photo": "https://opendota.com/cdn/heroposes/crystal_maiden.jpg"
+      "photo": "https://placehold.co/400x250/7a7a7a/ffffff&text=Crystal+Maiden"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "primaryAttr": "agi",
       "roles": ["Mid", "Carry"],
       "abilities": ["Presence of the Dark Lord", "Soul Race", "Requiem of the Damned"],
-      "photo": "https://opendota.com/cdn/heropodes/shadow_fiend.jpg"
+      "photo": "https://placehold.co/400x250/8a8a8a/ffffff&text=Shadow+Fiend"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "primaryAttr": "str",
       "roles": ["Offlane", "Initiator"],
       "abilities": ["Meat Hook", "Dismember", "Rot", "Flesh Heap"],
-      "photo": "https://opendota.com/cdn/heroposes/pudge.jpg"
+      "photo": "https://placehold.co/400x250/9a9a9a/ffffff&text=Pudge"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "primaryAttr": "agi",
       "roles": ["Carry", "Pusher"],
       "abilities": ["Lucent Beam", "Moon Glaives", "Eclipse", "Impetus"],
-      "photo": "https://opendota.com/cdn/heroposes/luna.jpg"
+      "photo": "https://placehold.co/400x250/aaaaaa/ffffff&text=Luna"
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "primaryAttr": "int",
       "roles": ["Support", "Nuker"],
       "abilities": ["Voodoo Restoration", "Hex", "Mass Serpent Ward"],
-      "photo": "https://opendota.com/cdn/heroposes/shadow_shaman.jpg"
+      "photo": "https://placehold.co/400x250/bbbbbb/ffffff&text=Shadow+Shaman"
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
       "abilities": ["Aqua Shield", "Corrosive Haze", "Slithereen Crush", "Guardian Sprint"],
-      "photo": "https://opendota.com/cdn/heroposes/slardar.jpg"
+      "photo": "https://placehold.co/400x250/cccccc/ffffff&text=Slardar"
     },
     {
       "id": 11,
@@ -97,7 +97,7 @@
       "primaryAttr": "agi",
       "roles": ["Carry", "Nuker"],
       "abilities": ["Take Aim", "Headshot", "Assassinate", "Disassemble"],
-      "photo": "https://opendota.com/cdn/heroposes/sniper.jpg"
+      "photo": "https://placehold.co/400x250/dddddd/000000&text=Sniper"
     },
     {
       "id": 12,
@@ -106,7 +106,7 @@
       "primaryAttr": "int",
       "roles": ["Carry", "Escape"],
       "abilities": ["Electric Vortex", "Static Remnant", "Storm Breaker", "Ball Lightning"],
-      "photo": "https://opendota.com/cdn/heroposes/storm_spirit.jpg"
+      "photo": "https://placehold.co/400x250/eeeeee/000000&text=Storm+Spirit"
     },
     {
       "id": 13,
@@ -115,7 +115,7 @@
       "primaryAttr": "agi",
       "roles": ["Carry", "Escape"],
       "abilities": ["Windrun", "Focus Fire", "Powershot", "Sacred Arrow"],
-      "photo": "https://opendota.com/cdn/heroposes/windranger.jpg"
+      "photo": "https://placehold.co/400x250/ffffff/000000&text=Windranger"
     },
     {
       "id": 14,
@@ -124,7 +124,7 @@
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
       "abilities": ["Gush", "Kraken Shell", "Tidal Wave", "Ravage"],
-      "photo": "https://opendota.com/cdn/heroposes/tidehunter.jpg"
+      "photo": "https://placehold.co/400x250/f5f0e7/2c3e50&text=Tidehunter"
     },
     {
       "id": 15,
@@ -133,7 +133,7 @@
       "primaryAttr": "int",
       "roles": ["Support", "Carry"],
       "abilities": ["Magic Missile", "Wave of Terror", "Nether Swap", "Mystic Angles"],
-      "photo": "https://opendota.com/cdn/heroposes/vengeful_spirit.jpg"
+      "photo": "https://placehold.co/400x250/e0e0e0/1a1a1a&text=Vengeful+Spirit"
     }
   ]
 }

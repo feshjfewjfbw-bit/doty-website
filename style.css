@@ -1,3 +1,136 @@
+/* Doty Universe - Modern Dark Theme with Grid Layout */
+
+/* CSS Variables - Light and Dark Mode */
+:root {
+  --bg-color: #f5f0e7;
+  --bg-card: #ffffff;
+  --bg-header: #2c3e50;
+  --text-color: #2c3e50;
+  --text-secondary: #666666;
+  --accent-gold: #d4a853;
+  --border-subtle: #e0e0e0;
+  --border-medium: #d0d0d0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1a1a1a;
+    --bg-card: #2d2d2d;
+    --bg-header: #4a4a4a;
+    --text-color: #e0e0e0;
+    --text-secondary: #aaaaff;
+    --accent-gold: #c9a840;
+    --border-subtle: #404040;
+    --border-medium: #505050;
+  }
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3 {
+  margin: 0.5rem 0;
+  color: var(--accent-gold);
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent-gold);
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--bg-header);
+}
+
+/* Header */
+header {
+  background: var(--bg-header);
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: #e0e0e0;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--accent-gold);
+}
+
+/* Hero Section */
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+/* Character List with Grid */
+.character-list {
+  padding: 0 2rem 2rem;
+}
+
+.grid-filter {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  background: var(--bg-header);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.filter-btn:hover:not(.active) {
+  background: var(--text-secondary);
+  color: var(--bg-color);
+}
+
+.filter-btn.active {
+  background: var(--accent-gold);
+  color: var(--bg-color);
+}
+
+/* Hero Grid - CSS Grid Layout */
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 .hero-card {
   position: relative;
   overflow: hidden;
@@ -7,6 +140,14 @@
   padding: 1rem;
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
 
 .hero-card-img {
@@ -15,11 +156,7 @@
   object-fit: cover;
   border-radius: 6px 6px 0 0;
   margin-bottom: 1rem;
-}
-
-.hero-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  background: #333;
 }
 
 .hero-card h3 {
@@ -48,4 +185,82 @@
   font-size: 0.7rem;
   color: var(--accent-gold);
   border: 1px solid var(--border-subtle);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-gold);
+  color: var(--bg-color);
+  border-radius: 4px;
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #f0b555;
+}
+
+/* Footer */
+footer {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-top: 2rem;
+}
+
+/* Hero Detail Page */
+.hero-detail {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.hero-detail-back {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.hero-detail-back:hover {
+  color: var(--accent-gold);
+}
+
+.lore {
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.attr-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.attr-label {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.attr-value {
+  color: var(--text-color);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-btn {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .hero-card-img {
+    height: 140px;
+  }
 }
