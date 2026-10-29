@@ -121,16 +121,59 @@ nav a:hover {
   color: var(--bg-color);
 }
 
-/* Hero Grid - CSS Grid Layout */
+/* Hero Grid - CSS Grid Layout with responsive columns */
 .hero-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
+/* Desktop: 3-4 columns on screens wider than 768px */
+@media (min-width: 769px) {
+  .hero-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+/* Tablet/Mobile: 2 columns on screens 768px and narrower */
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+/* Mobile: 1 column on very small screens - fallback */
+@media (max-width: 400px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-btn {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .hero-card-img {
+    height: 140px;
+  }
+
+  .hero-card h3 {
+    font-size: 1rem;
+  }
+
+  .hero-card .attr {
+    font-size: 0.75rem;
+  }
+
+  .ability {
+    font-size: 0.65rem;
+    padding: 0.1rem 0.4rem;
+  }
+}
+
+/* Hero Card */
 .hero-card {
   position: relative;
   overflow: hidden;
@@ -249,18 +292,39 @@ footer {
   color: var(--text-color);
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .hero-grid {
-    grid-template-columns: 1fr;
+/* Mobile improvements - ensure nothing overflows */
+@media (max-width: 768px) {
+  body {
+    padding: 0 1rem;
   }
 
-  .filter-btn {
-    font-size: 0.75rem;
-    padding: 0.4rem 0.8rem;
+  .hero-grid {
+    gap: 1rem;
+  }
+
+  .hero-card {
+    padding: 0.75rem;
   }
 
   .hero-card-img {
-    height: 140px;
+    height: 160px;
+    border-radius: 4px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .grid-filter {
+    gap: 0.25rem;
+  }
+
+  .filter-btn {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.7rem;
   }
 }

@@ -3,137 +3,272 @@
     {
       "id": 1,
       "name": "Anti-Mage",
-      "lore": "Once a lowly street urchin of the empire, Anti-Mage discovered a mystical artifact that granted him incredible power. Driven by an insatiable hunger for magic, he now seeks to destroy all spellcasters and uncover the secrets of the ancient arts.",
       "primaryAttr": "agi",
       "roles": ["Carry", "Escape"],
       "abilities": ["Mana Break", "Blink", "Spell Shield", "Mana Void"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png",
+      "lore": "Once a lowly street urchin of the empire, Anti-Mage discovered a mystical artifact that granted him incredible power. Driven by an insatiable hunger for magic, he now seeks to destroy all spellcasters and uncover the secrets of the ancient arts, believing that without magic, the world will know true peace."
     },
     {
       "id": 2,
       "name": "Sven",
-      "lore": "Sven was once a simple blacksmith's apprentice who found a legendary sword of immense power. With his massive strength and unwavering courage, he became a champion of the people, smashing his foes with devastating blows and inspiring allies with his heroic presence.",
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
       "abilities": ["Storm Hammer", "God Strength", "Warcry", "Silver Edge"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png",
+      "lore": "Sven was once a simple blacksmith's apprentice who found a legendary sword of immense power. With his massive strength and unwavering courage, he became a champion of the people, smashing his foes with devastating blows and inspiring allies with his heroic presence. His legend grows with every victory."
     },
     {
       "id": 3,
       "name": "Dragon Knight",
-      "lore": "A warrior of ancient lineage, Dragon Knight can transform into a mighty dragon, gaining immense power and flight. He guards the sacred relics of his people and unleashes fiery breath upon those who dare oppose him.",
       "primaryAttr": "str",
       "roles": ["Fighter", "Carry"],
       "abilities": ["Dragon Form", "Fire Breath", "Dragon's Blood", "Splash Damage"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dragon_knight.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dragon_knight.png",
+      "lore": "A warrior of ancient lineage, Dragon Knight can transform into a mighty dragon, gaining immense power and flight. He guards the sacred relics of his people and unleashes fiery breath upon those who dare oppose him. The longer he fights, the more dragon-like he becomes."
     },
     {
       "id": 4,
       "name": "Puck",
-      "lore": "A mischievous elemental entity, Puck travels the realms casting enigmatic spells and confounding enemies with its whimsical nature. Its origin is shrouded in mystery, but its ability to manipulate time and space is unmatched.",
       "primaryAttr": "int",
       "roles": ["Support", "Escape"],
       "abilities": ["Waning Rift", "Illusory Orb", "Phase Shift", "Dreamscape"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png",
+      "lore": "A mischievous elemental entity, Puck travels the realms casting enigmatic spells and confounding enemies with its whimsical nature. Its origin is shrouded in mystery, but its ability to manipulate time and space is unmatched. Puck seeks to bring balance to the chaotic forces of the universe."
     },
     {
       "id": 5,
       "name": "Crystal Maiden",
-      "lore": "A tragic figure born of icy lineage, Crystal Maiden wanders the frozen wastes seeking redemption. Her melodic voice can freeze enemies in their tracks, and she calls upon the powers of the frozen deep to aid her allies.",
       "primaryAttr": "int",
       "roles": ["Support", "Nuker"],
       "abilities": ["Crystal Nova", "Frostbite", "Freezing Field", "Arcane Aura"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png",
+      "lore": "A tragic figure born of icy lineage, Crystal Maiden wanders the frozen wastes seeking redemption. Her melodic voice can freeze enemies in their tracks, and she calls upon the powers of the frozen deep to aid her allies. Despite her gentle demeanor, she possesses immense magical power."
     },
     {
       "id": 6,
       "name": "Shadow Fiend",
-      "lore": "A creature of pure shadow, Shadow Fiend feeds on the souls of the fallen to grow in power. He wanders the battlefield seeking victims, for each soul consumed makes his ultimate demise more devastating.",
       "primaryAttr": "agi",
       "roles": ["Mid", "Carry"],
       "abilities": ["Presence of the Dark Lord", "Soul Race", "Requiem of the Damned"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_fiend.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_fiend.png",
+      "lore": "A creature of pure shadow, Shadow Fiend feeds on the souls of the fallen to grow in power. He wanders the battlefield seeking victims, for each soul consumed makes his ultimate demise more devastating. His Requiem of the Damned can wipe out entire teams in a single devastating blast."
     },
     {
       "id": 7,
       "name": "Pudge",
-      "lore": "A hulking monster of the sewers, Pudge lures unsuspecting victims with his meat hook and drags them into the darkness. His appetite is insatiable, and those who fall victim to his grasp are never seen again.",
       "primaryAttr": "str",
       "roles": ["Offlane", "Initiator"],
       "abilities": ["Meat Hook", "Dismember", "Rot", "Flesh Heap"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png",
+      "lore": "A hulking monster of the sewers, Pudge lures unsuspecting victims with his meat hook and drags them into the darkness. His appetite is insatiable, and those who fall victim to his grasp are never seen again. Flesh Heap makes him harder to kill the more he feeds on enemy corpses."
     },
     {
       "id": 8,
       "name": "Luna",
-      "lore": "The Moon Rider, Luna wields the power of the moon to smite her enemies. Born from the celestial realm, she draws strength from the night and unleashes devastating lunar energy upon those who oppose her.",
       "primaryAttr": "agi",
       "roles": ["Carry", "Pusher"],
       "abilities": ["Lucent Beam", "Moon Glaives", "Eclipse", "Impetus"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/luna.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/luna.png",
+      "lore": "The Moon Rider, Luna wields the power of the moon to smite her enemies. Born from the celestial realm, she draws strength from the night and unleashes devastating lunar energy upon those who oppose her. Her Eclipse can turn the tide of battle with a single devastating blast of lunar force."
     },
     {
       "id": 9,
       "name": "Shadow Shaman",
-      "lore": "An ancient shadow shaman, he draws power from the darkness of the wild. His spells can cripple enemies with poison and summon destructive spirits to do his bidding, making him a feared spellcaster on the battlefield.",
       "primaryAttr": "int",
       "roles": ["Support", "Nuker"],
       "abilities": ["Voodoo Restoration", "Hex", "Mass Serpent Ward"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_shaman.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_shaman.png",
+      "lore": "An ancient shadow shaman, he draws power from the darkness of the wild. His spells can cripple enemies with poison and summon destructive spirits to do his bidding, making him a feared spellcaster on the battlefield. His Mass Serpent Ward can summon multiple deadly wardens at once."
     },
     {
       "id": 10,
       "name": "Slardar",
-      "lore": "A formidable warrior of the deep, Slardar possesses skin tough as scales and the ability to traverse water with ease. He enforces the laws of the ocean depths, dragging enemies into the abyss with his powerful tail.",
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
       "abilities": ["Aqua Shield", "Corrosive Haze", "Slithereen Crush", "Guardian Sprint"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slardar.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slardar.png",
+      "lore": "A formidable warrior of the deep, Slardar possesses skin tough as scales and the ability to traverse water with ease. He enforces the laws of the ocean depths, dragging enemies into the abyss with his powerful tail. Corrosive Haze reduces enemy armor, making them vulnerable to all attacks."
     },
     {
       "id": 11,
       "name": "Sniper",
-      "lore": "Sniper was abandoned by his parents as a child in the slums of a major city. Forced to survive on his own, he learned to use a crossbow and developed his signature ultimate, taking down enemies from distances no one else could comprehend. Now he roams the battlefield, delivering perfect shots from afar.",
       "primaryAttr": "agi",
       "roles": ["Carry", "Nuker"],
       "abilities": ["Take Aim", "Headshot", "Assassinate", "Disassemble"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sniper.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sniper.png",
+      "lore": "Sniper was abandoned by his parents as a child in the slums of a major city. Forced to survive on his own, he learned to use a crossbow and developed his signature ultimate, taking down enemies from distances no one else could comprehend. Now he roams the battlefield, delivering perfect shots from afar. Take Aim gives him unparalleled range."
     },
     {
       "id": 12,
       "name": "Storm Spirit",
-      "lore": "A being of pure electricity, Storm Spirit embodies the raw power of tempests. He darts across the battlefield at lightning speed, weaving through enemy lines and shocking anyone who crosses his path. His very presence summons storms that can level armies.",
       "primaryAttr": "int",
       "roles": ["Carry", "Escape"],
       "abilities": ["Electric Vortex", "Static Remnant", "Storm Breaker", "Ball Lightning"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm_spirit.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm_spirit.png",
+      "lore": "A being of pure electricity, Storm Spirit embodies the raw power of tempests. He darts across the battlefield at lightning speed, weaving through enemy lines and shocking anyone who crosses his path. His very presence summons storms that can level armies. Ball Lightning makes him nearly uncatchable."
     },
     {
       "id": 13,
       "name": "Windranger",
-      "lore": "Windranger was born in the northernmost forests, where she learned to master the winds from a young age. She uses her bow to shoot arrows imbued with the power of the gale, striking enemies before they even realize she's there. A solitary protector of her homeland, she now fights to defend the realms from threats both foreign and domestic.",
       "primaryAttr": "agi",
       "roles": ["Carry", "Escape"],
       "abilities": ["Windrun", "Focus Fire", "Powershot", "Sacred Arrow"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windranger.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windranger.png",
+      "lore": "Windranger was born in the northernmost forests, where she learned to master the winds from a young age. She uses her bow to shoot arrows imbued with the power of the gale, striking enemies before they even realize she's there. A solitary protector of her homeland, she now fights to defend the realms from threats both foreign and domestic. Focus Fire unleashes a barrage of arrows at a single target."
     },
     {
       "id": 14,
       "name": "Tidehunter",
-      "lore": "Tidehunter is an ancient abyssal kraken who has dwelled in the deepest trenches of the ocean for eons. When the seas rise in wrath, he emerges to unleash his ultimate, Ravage, crushing everything in his path. His thick carapace deflects even the most powerful magics, making him an unyielding force of nature.",
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
       "abilities": ["Gush", "Kraken Shell", "Tidal Wave", "Ravage"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tidehunter.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tidehunter.png",
+      "lore": "Tidehunter is an ancient abyssal kraken who has dwelled in the deepest trenches of the ocean for eons. When the seas rise in wrath, he emerges to unleash his ultimate, Ravage, crushing everything in his path. His thick carapace deflects even the most powerful magics, making him an unyielding force of nature. Gush rapidly regenerates his health."
     },
     {
       "id": 15,
       "name": "Vengeful Spirit",
-      "lore": "Once a noblewoman betrayed by her own kin, Vengeful Spirit died with a burning desire for retribution. She returned as a vengeful entity, capable of turning enemies against one another and teleporting short distances to exact her revenge. She walks the battlefield as a reminder that treachery cannot go unpunished.",
       "primaryAttr": "int",
       "roles": ["Support", "Carry"],
       "abilities": ["Magic Missile", "Wave of Terror", "Nether Swap", "Mystic Angles"],
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengeful_spirit.png"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengeful_spirit.png",
+      "lore": "Once a noblewoman betrayed by her own kin, Vengeful Spirit died with a burning desire for retribution. She returned as a vengeful entity, capable of turning enemies against one another and teleporting short distances to exact her revenge. She walks the battlefield as a reminder that treachery cannot go unpunished. Nether Swap can swap positions with a target hero."
+    },
+    {
+      "id": 16,
+      "name": "Invoker",
+      "primaryAttr": "int",
+      "roles": ["Carry", "Nuker"],
+      "abilities": ["Quas", "Wex", "Exort", "Chaos Meteor", "EMP", "Sun Strike", "Forge Spirit"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/invoker.png",
+      "lore": "The son of a minor noble family, Invoker showed prodigious aptitude for magic from a young age. Through rigorous training and experimentation, he unlocked the secrets of the cosmos, gaining access to ten powerful spells. His combination of Chaos Meteor, EMP, and Sun Strike makes him one of the most versatile and dangerous spellcasters in existence."
+    },
+    {
+      "id": 17,
+      "name": "Juggernaut",
+      "primaryAttr": "str",
+      "roles": ["Offlane", "Carry"],
+      "abilities": ["Blade Fury", "Healing Ward", "Omnislash", "Blade Dance"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/juggernaut.png",
+      "lore": "Once a nameless mercenary, Juggernaut discovered a legendary sword that granted him incredible combat prowess. He now fights for glory and treasure, his blade flashing with lethal speed. Blade Fury grants him temporary immunity to most spells, while Omnislash is a whirlwind of death that few enemies can survive."
+    },
+    {
+      "id": 18,
+      "name": "Phantom Assassin",
+      "primaryAttr": "agi",
+      "roles": ["Carry", "Escape"],
+      "abilities": ["Stifling Dagger", "Phantom Strike", "Blur", "Coup de Grace"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phantom_assassin.png",
+      "lore": "A mysterious warrior who emerged from the shadows of the Tangrowth forest, Phantom Assassin is an expert in the art of assassination. Her blade is keen, and her skill with critical strikes is unmatched. Coup de Grace can deliver a blow so powerful it instantly kills unprepared enemies. Blur makes her hard to hit in combat."
+    },
+    {
+      "id": 19,
+      "name": "Bloodseeker",
+      "primaryAttr": "agi",
+      "roles": ["Carry", "Jungle"],
+      "abilities": ["Blood Bank", "Rupture", "Thirst", "Blood Rite"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bloodseeker.png",
+      "lore": "A creature that prowls the battlefields seeking the dying and the dead, Bloodseeker can smell the scent of blood from great distances. Rupture prevents enemy movement, causing them to take damage if they try to escape. Thirst gives him increased movement speed and health regeneration when near enemy heroes with low health."
+    },
+    {
+      "id": 20,
+      "name": "Zeus",
+      "primaryAttr": "int",
+      "roles": ["Nuker", "Support"],
+      "abilities": ["Arc Lightning", "Lightning Bolt", "Thunderbolt", "Static Field"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zeus.png",
+      "lore": "The lord of the storm, Zeus wields the raw power of lightning itself. His Thunderbolt can strike enemies from anywhere on the map, while Static Field damages all nearby enemies. Arrogant and ambitious, he seeks to prove his superiority over all other spellcasters by becoming the most powerful being in the universe."
+    },
+    {
+      "id": 21,
+      "name": "Lion",
+      "primaryAttr": "int",
+      "roles": ["Support", "Nuker"],
+      "abilities": ["Hex", "Earth Spike", "Finger of Death", "Spell Steal"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lion.png",
+      "lore": "A sage of ancient lineage, Lion possesses magical abilities that few can comprehend. Hex turns enemies into frogs, while Earth Spike impales them from below. Finger of Death is a devastating nuke that can instantly kill low-health targets. Spell Steal allows him to borrow the abilities of his enemies."
+    },
+    {
+      "id": 22,
+      "name": "Shadow Demon",
+      "primaryAttr": "int",
+      "roles": ["Support", "Nuker"],
+      "abilities": ["Disruptor", "Soul Catcher", "Demonic Purge", "Parch"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_demon.png",
+      "lore": "A creature of pure malice from the plane of shadows, Shadow Demon seeks to spread chaos and despair. He can create illusions of his enemies, steal their souls, and purge them from existence. Demonic Purge removes buffs from his target while adding a burning debuff that cannot be removed."
+    },
+    {
+      "id": 23,
+      "name": "Marci",
+      "primaryAttr": "str",
+      "roles": ["Offlane", "Durable"],
+      "abilities": ["Rebounding Throw", "Sidekick", "Unleash", "Dominating Power"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/marci.png",
+      "lore": "A warrior who once served as a knight-commander, Marci left her order to seek strength on her own terms. Her unarmed combat skills are devastating, and she can throw enemies great distances. Unleash can trigger multiple powerful attacks in rapid succession, making her a fearsome duelist."
+    },
+    {
+      "id": 24,
+      "name": "Disruptor",
+      "primaryAttr": "int",
+      "roles": ["Support", "Nuker"],
+      "abilities": ["Glimpse", "Thunder Strike", "Kinetic Field", "Static Storm"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/disruptor.png",
+      "lore": "An enigmatic entity from the far reaches of the universe, Disruptor seeks to bring order to chaos. His Thunder Strike reveals invisible enemies and damages those in its path. Kinetic Field traps enemies in a protective sphere, while Static Storm removes all enemy abilities in a massive area."
+    },
+    {
+      "id": 25,
+      "name": "Techies",
+      "primaryAttr": "int",
+      "roles": ["Support", "Pusher"],
+      "abilities": ["Remote Mines", "Sticky Bomb", "Suicide", "Blast Off!"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/techies.png",
+      "lore": "A trio of curious tinker-gnomes, Techies delight in setting traps and watching things go boom. Their Remote Mines can lay waste to entire teams, while Sticky Bombs adhere to heroes and explode after a delay. Suicide is a last-resort explosion that damages nearby enemies. Blast Off! sends them airborne with a massive payload."
+    },
+    {
+      "id": 26,
+      "name": "Tinker",
+      "primaryAttr": "int",
+      "roles": ["Carry", "Nuker"],
+      "abilities": ["Laser", "Heat-Seeking Missile", "March of the Machines", "Rockethook"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tinker.png",
+      "lore": "The greatest inventor of his age, Tinker constantly seeks to improve his machines and weapons. His Laser can blind entire enemy armies, while Heat-Seeking Missile homes in on his targets. March of the Machines sends swarms of tiny units to fight by his side, and Rockethook launches a homing rocket that can stun enemies."
+    },
+    {
+      "id": 27,
+      "name": "Sven",
+      "primaryAttr": "str",
+      "roles": ["Offlane", "Durable"],
+      "abilities": ["Storm Hammer", "God Strength", "Warcry", "Silver Edge"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png",
+      "lore": "Sven was once a simple blacksmith's apprentice who found a legendary sword of immense power. With his massive strength and unwavering courage, he became a champion of the people, smashing his foes with devastating blows and inspiring allies with his heroic presence. His legend grows with every victory."
+    },
+    {
+      "id": 28,
+      "name": "Luna",
+      "primaryAttr": "agi",
+      "roles": ["Carry", "Pusher"],
+      "abilities": ["Lucent Beam", "Moon Glaives", "Eclipse", "Impetus"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/luna.png",
+      "lore": "The Moon Rider, Luna wields the power of the moon to smite her enemies. Born from the celestial realm, she draws strength from the night and unleashes devastating lunar energy upon those who oppose her. Her Eclipse can turn the tide of battle with a single devastating blast of lunar force."
+    },
+    {
+      "id": 29,
+      "name": "Slardar",
+      "primaryAttr": "str",
+      "roles": ["Offlane", "Durable"],
+      "abilities": ["Aqua Shield", "Corrosive Haze", "Slithereen Crush", "Guardian Sprint"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slardar.png",
+      "lore": "A formidable warrior of the deep, Slardar possesses skin tough as scales and the ability to traverse water with ease. He enforces the laws of the ocean depths, dragging enemies into the abyss with his powerful tail. Corrosive Haze reduces enemy armor, making them vulnerable to all attacks."
+    },
+    {
+      "id": 30,
+      "name": "Sniper",
+      "primaryAttr": "agi",
+      "roles": ["Carry", "Nuker"],
+      "abilities": ["Take Aim", "Headshot", "Assassinate", "Disassemble"],
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sniper.png",
+      "lore": "Sniper was abandoned by his parents as a child in the slums of a major city. Forced to survive on his own, he learned to use a crossbow and developed his signature ultimate, taking down enemies from distances no one else could comprehend. Now he roams the battlefield, delivering perfect shots from afar. Take Aim gives him unparalleled range."
     }
   ]
 }
