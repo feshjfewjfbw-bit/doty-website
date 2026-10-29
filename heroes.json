@@ -7,7 +7,7 @@
       "primaryAttr": "agi",
       "roles": ["Carry", "Escape"],
       "abilities": ["Mana Break", "Blink", "Spell Shield", "Mana Void"],
-      "photo": "https://placehold.co/400x250/2c3e50/ffffff&text=Anti-Mage"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
       "abilities": ["Storm Hammer", "God Strength", "Warcry", "Silver Edge"],
-      "photo": "https://placehold.co/400x250/4a4a4a/ffffff&text=Sven"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "primaryAttr": "str",
       "roles": ["Fighter", "Carry"],
       "abilities": ["Dragon Form", "Fire Breath", "Dragon's Blood", "Splash Damage"],
-      "photo": "https://placehold.co/400x250/5a5a5a/ffffff&text=Dragon+Knight"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dragon_knight.png"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "primaryAttr": "int",
       "roles": ["Support", "Escape"],
       "abilities": ["Waning Rift", "Illusory Orb", "Phase Shift", "Dreamscape"],
-      "photo": "https://placehold.co/400x250/6a6a6a/ffffff&text=Puck"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "primaryAttr": "int",
       "roles": ["Support", "Nuker"],
       "abilities": ["Crystal Nova", "Frostbite", "Freezing Field", "Arcane Aura"],
-      "photo": "https://placehold.co/400x250/7a7a7a/ffffff&text=Crystal+Maiden"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "primaryAttr": "agi",
       "roles": ["Mid", "Carry"],
       "abilities": ["Presence of the Dark Lord", "Soul Race", "Requiem of the Damned"],
-      "photo": "https://placehold.co/400x250/8a8a8a/ffffff&text=Shadow+Fiend"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_fiend.png"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "primaryAttr": "str",
       "roles": ["Offlane", "Initiator"],
       "abilities": ["Meat Hook", "Dismember", "Rot", "Flesh Heap"],
-      "photo": "https://placehold.co/400x250/9a9a9a/ffffff&text=Pudge"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "primaryAttr": "agi",
       "roles": ["Carry", "Pusher"],
       "abilities": ["Lucent Beam", "Moon Glaives", "Eclipse", "Impetus"],
-      "photo": "https://placehold.co/400x250/aaaaaa/ffffff&text=Luna"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/luna.png"
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "primaryAttr": "int",
       "roles": ["Support", "Nuker"],
       "abilities": ["Voodoo Restoration", "Hex", "Mass Serpent Ward"],
-      "photo": "https://placehold.co/400x250/bbbbbb/ffffff&text=Shadow+Shaman"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_shaman.png"
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
       "abilities": ["Aqua Shield", "Corrosive Haze", "Slithereen Crush", "Guardian Sprint"],
-      "photo": "https://placehold.co/400x250/cccccc/ffffff&text=Slardar"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slardar.png"
     },
     {
       "id": 11,
@@ -97,7 +97,7 @@
       "primaryAttr": "agi",
       "roles": ["Carry", "Nuker"],
       "abilities": ["Take Aim", "Headshot", "Assassinate", "Disassemble"],
-      "photo": "https://placehold.co/400x250/dddddd/000000&text=Sniper"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sniper.png"
     },
     {
       "id": 12,
@@ -106,7 +106,7 @@
       "primaryAttr": "int",
       "roles": ["Carry", "Escape"],
       "abilities": ["Electric Vortex", "Static Remnant", "Storm Breaker", "Ball Lightning"],
-      "photo": "https://placehold.co/400x250/eeeeee/000000&text=Storm+Spirit"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm_spirit.png"
     },
     {
       "id": 13,
@@ -115,7 +115,7 @@
       "primaryAttr": "agi",
       "roles": ["Carry", "Escape"],
       "abilities": ["Windrun", "Focus Fire", "Powershot", "Sacred Arrow"],
-      "photo": "https://placehold.co/400x250/ffffff/000000&text=Windranger"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windranger.png"
     },
     {
       "id": 14,
@@ -124,7 +124,7 @@
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
       "abilities": ["Gush", "Kraken Shell", "Tidal Wave", "Ravage"],
-      "photo": "https://placehold.co/400x250/f5f0e7/2c3e50&text=Tidehunter"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tidehunter.png"
     },
     {
       "id": 15,
@@ -133,7 +133,7 @@
       "primaryAttr": "int",
       "roles": ["Support", "Carry"],
       "abilities": ["Magic Missile", "Wave of Terror", "Nether Swap", "Mystic Angles"],
-      "photo": "https://placehold.co/400x250/e0e0e0/1a1a1a&text=Vengeful+Spirit"
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengeful_spirit.png"
     }
   ]
 }
