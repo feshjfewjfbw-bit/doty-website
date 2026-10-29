@@ -72,7 +72,11 @@ function renderHeroGrid(heroes) {
             <h3>${hero.name}</h3>
             <div class="attr">Attribute: ${getAttrLabel(hero.primaryAttr)}</div>
             <div class="abilities">
-                ${hero.abilities.map(abil => `<span class="ability">${abil}</span>`).join('')}
+                ${hero.abilities.map((abil, i) => `
+                    <div class="ability-tooltip">
+                        <img src="${hero.ability_icons[i]}" alt="${abil}" class="ability-icon">
+                        <span class="ability-tooltip-text">${abil}</span>
+                    </div>`).join('')}
             </div>
         </div>
     `).join('');
