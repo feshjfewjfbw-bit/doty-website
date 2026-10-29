@@ -1,10 +1,35 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Default hero data in case JSON fails to load
+    const defaultHeroes = [
+        {
+            id: 1, name: "Anti-Mage", primaryAttr: "agi",
+            roles: ["Carry", "Escape"],
+            abilities: ["Mana Break", "Blink", "Spell Shield", "Mana Void"],
+            lore: "A hero who breaks mana and blinks away from danger."
+        },
+        {
+            id: 2, name: "Sven", primaryAttr: "str",
+            roles: ["Offlane", "Durable"],
+            abilities: ["Storm Hammer", "God Strength", "Warcry", "Silver Edge"],
+            lore: "A mighty warrior inspired by legendary strength."
+        },
+        {
+            id: 3, name: "Dragon Knight", primaryAttr: "str",
+            roles: ["Fighter", "Carry"],
+            abilities: ["Dragon Form", "Fire Breath", "Dragon's Blood", "Splash Damage"],
+            lore: "A warrior who can transform into a dragon."
+        }
+    ];
+
     // Load heroes data
     fetch('heroes.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok');
+            return response.json();
+        })
         .then(data => {
-            window.allHeroes = data.heroes;
-            window.filteredHeroes = [...data.heroes];
+            window.allHeroes = data.heroes || defaultHeroes;
+            window.filteredHeroes = [...(window.allHeroes || defaultHeroes)];
 
             // Check for hero detail in URL parameter
             const urlParams = new URLSearchParams(window.location.search);
@@ -21,11 +46,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Initialize: render grid and filters
             renderHeroGrid(filteredHeroes);
-            setupFilters(data.heroes);
-            setupHeroDetailHandlers(data.heroes);
+            setupFilters(window.allHeroes || defaultHeroes);
+            setupHeroDetailHandlers(window.allHeroes || defaultHeroes);
         })
         .catch(err => {
-            console.error('Failed to load heroes data:', err);
+            console.error('Failed to load heroes data, using fallback:', err);
+            // Use default heroes as fallback
+            window.allHeroes = defaultHeroes;
+            window.filteredHeroes = [...defaultHeroes];
+
+            // Initialize with default heroes
+            renderHeroGrid(filteredHeroes);
+            setupFilters(defaultHeroes);
+            setupHeroDetailHandlers(defaultHeroes);
         });
 });
 
@@ -35,6 +68,7 @@ function renderHeroGrid(heroes) {
 
     grid.innerHTML = heroes.map((hero, index) => `
         <div class="hero-card" data-id="${hero.id}" data-attr="${hero.primaryAttr}" data-name="${hero.name}">
+            <img src="${hero.photo}" alt="${hero.name}" class="hero-card-img">
             <h3>${hero.name}</h3>
             <div class="attr">Attribute: ${getAttrLabel(hero.primaryAttr)}</div>
             <div class="abilities">
@@ -56,8 +90,9 @@ function setupFilters(allHeroes) {
 
     if (!filterContainer) return;
 
+    // Always show filter buttons, even if no heroes
     filterContainer.innerHTML = uniqueAttrs.map(attr => `
-        <button class="filter-btn ${attr === 'str' ? 'active' : ''}" data-attr="${attr}">
+        <button class="filter-btn" data-attr="${attr}">
             ${getAttrLabel(attr)}
         </button>
     `).join('');

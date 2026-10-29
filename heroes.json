@@ -6,7 +6,8 @@
       "lore": "Once a lowly street urchin of the empire, Anti-Mage discovered a mystical artifact that granted him incredible power. Driven by an insatiable hunger for magic, he now seeks to destroy all spellcasters and uncover the secrets of the ancient arts.",
       "primaryAttr": "agi",
       "roles": ["Carry", "Escape"],
-      "abilities": ["Mana Break", "Blink", "Spell Shield", "Mana Void"]
+      "abilities": ["Mana Break", "Blink", "Spell Shield", "Mana Void"],
+      "photo": "https://opendota.com/cdn/heroposes/anti_mage.jpg"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "lore": "Sven was once a simple blacksmith's apprentice who found a legendary sword of immense power. With his massive strength and unwavering courage, he became a champion of the people, smashing his foes with devastating blows and inspiring allies with his heroic presence.",
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
-      "abilities": ["Storm Hammer", "God Strength", "Warcry", "Silver Edge"]
+      "abilities": ["Storm Hammer", "God Strength", "Warcry", "Silver Edge"],
+      "photo": "https://opendota.com/cdn/heroposes/sven.jpg"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "lore": "A warrior of ancient lineage, Dragon Knight can transform into a mighty dragon, gaining immense power and flight. He guards the sacred relics of his people and unleashes fiery breath upon those who dare oppose him.",
       "primaryAttr": "str",
       "roles": ["Fighter", "Carry"],
-      "abilities": ["Dragon Form", "Fire Breath", "Dragon's Blood", "Splash Damage"]
+      "abilities": ["Dragon Form", "Fire Breath", "Dragon's Blood", "Splash Damage"],
+      "photo": "https://opendota.com/cdn/heroposes/dragon_knight.jpg"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "lore": "A mischievous elemental entity, Puck travels the realms casting enigmatic spells and confounding enemies with its whimsical nature. Its origin is shrouded in mystery, but its ability to manipulate time and space is unmatched.",
       "primaryAttr": "int",
       "roles": ["Support", "Escape"],
-      "abilities": ["Waning Rift", "Illusory Orb", "Phase Shift", "Dreamscape"]
+      "abilities": ["Waning Rift", "Illusory Orb", "Phase Shift", "Dreamscape"],
+      "photo": "https://opendota.com/cdn/heroposes/puck.jpg"
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "lore": "A tragic figure born of icy lineage, Crystal Maiden wanders the frozen wastes seeking redemption. Her melodic voice can freeze enemies in their tracks, and she calls upon the powers of the frozen deep to aid her allies.",
       "primaryAttr": "int",
       "roles": ["Support", "Nuker"],
-      "abilities": ["Crystal Nova", "Frostbite", "Freezing Field", "Arcane Aura"]
+      "abilities": ["Crystal Nova", "Frostbite", "Freezing Field", "Arcane Aura"],
+      "photo": "https://opendota.com/cdn/heroposes/crystal_maiden.jpg"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "lore": "A creature of pure shadow, Shadow Fiend feeds on the souls of the fallen to grow in power. He wanders the battlefield seeking victims, for each soul consumed makes his ultimate demise more devastating.",
       "primaryAttr": "agi",
       "roles": ["Mid", "Carry"],
-      "abilities": ["Presence of the Dark Lord", "Soul Race", "Requiem of the Damned"]
+      "abilities": ["Presence of the Dark Lord", "Soul Race", "Requiem of the Damned"],
+      "photo": "https://opendota.com/cdn/heropodes/shadow_fiend.jpg"
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "lore": "A hulking monster of the sewers, Pudge lures unsuspecting victims with his meat hook and drags them into the darkness. His appetite is insatiable, and those who fall victim to his grasp are never seen again.",
       "primaryAttr": "str",
       "roles": ["Offlane", "Initiator"],
-      "abilities": ["Meat Hook", "Dismember", "Rot", "Flesh Heap"]
+      "abilities": ["Meat Hook", "Dismember", "Rot", "Flesh Heap"],
+      "photo": "https://opendota.com/cdn/heroposes/pudge.jpg"
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "lore": "The Moon Rider, Luna wields the power of the moon to smite her enemies. Born from the celestial realm, she draws strength from the night and unleashes devastating lunar energy upon those who oppose her.",
       "primaryAttr": "agi",
       "roles": ["Carry", "Pusher"],
-      "abilities": ["Lucent Beam", "Moon Glaives", "Eclipse", "Impetus"]
+      "abilities": ["Lucent Beam", "Moon Glaives", "Eclipse", "Impetus"],
+      "photo": "https://opendota.com/cdn/heroposes/luna.jpg"
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "lore": "An ancient shadow shaman, he draws power from the darkness of the wild. His spells can cripple enemies with poison and summon destructive spirits to do his bidding, making him a feared spellcaster on the battlefield.",
       "primaryAttr": "int",
       "roles": ["Support", "Nuker"],
-      "abilities": ["Voodoo Restoration", "Hex", "Mass Serpent Ward",]
+      "abilities": ["Voodoo Restoration", "Hex", "Mass Serpent Ward"],
+      "photo": "https://opendota.com/cdn/heroposes/shadow_shaman.jpg"
     },
     {
       "id": 10,
@@ -78,7 +87,53 @@
       "lore": "A formidable warrior of the deep, Slardar possesses skin tough as scales and the ability to traverse water with ease. He enforces the laws of the ocean depths, dragging enemies into the abyss with his powerful tail.",
       "primaryAttr": "str",
       "roles": ["Offlane", "Durable"],
-      "abilities": ["Aqua Shield", "Corrosive Haze", "Slithereen Crush", "Guardian Sprint"]
+      "abilities": ["Aqua Shield", "Corrosive Haze", "Slithereen Crush", "Guardian Sprint"],
+      "photo": "https://opendota.com/cdn/heroposes/slardar.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Sniper",
+      "lore": "Sniper was abandoned by his parents as a child in the slums of a major city. Forced to survive on his own, he learned to use a crossbow and developed his signature ultimate, taking down enemies from distances no one else could comprehend. Now he roams the battlefield, delivering perfect shots from afar.",
+      "primaryAttr": "agi",
+      "roles": ["Carry", "Nuker"],
+      "abilities": ["Take Aim", "Headshot", "Assassinate", "Disassemble"],
+      "photo": "https://opendota.com/cdn/heroposes/sniper.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Storm Spirit",
+      "lore": "A being of pure electricity, Storm Spirit embodies the raw power of tempests. He darts across the battlefield at lightning speed, weaving through enemy lines and shocking anyone who crosses his path. His very presence summons storms that can level armies.",
+      "primaryAttr": "int",
+      "roles": ["Carry", "Escape"],
+      "abilities": ["Electric Vortex", "Static Remnant", "Storm Breaker", "Ball Lightning"],
+      "photo": "https://opendota.com/cdn/heroposes/storm_spirit.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Windranger",
+      "lore": "Windranger was born in the northernmost forests, where she learned to master the winds from a young age. She uses her bow to shoot arrows imbued with the power of the gale, striking enemies before they even realize she's there. A solitary protector of her homeland, she now fights to defend the realms from threats both foreign and domestic.",
+      "primaryAttr": "agi",
+      "roles": ["Carry", "Escape"],
+      "abilities": ["Windrun", "Focus Fire", "Powershot", "Sacred Arrow"],
+      "photo": "https://opendota.com/cdn/heroposes/windranger.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Tidehunter",
+      "lore": "Tidehunter is an ancient abyssal kraken who has dwelled in the deepest trenches of the ocean for eons. When the seas rise in wrath, he emerges to unleash his ultimate, Ravage, crushing everything in his path. His thick carapace deflects even the most powerful magics, making him an unyielding force of nature.",
+      "primaryAttr": "str",
+      "roles": ["Offlane", "Durable"],
+      "abilities": ["Gush", "Kraken Shell", "Tidal Wave", "Ravage"],
+      "photo": "https://opendota.com/cdn/heroposes/tidehunter.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Vengeful Spirit",
+      "lore": "Once a noblewoman betrayed by her own kin, Vengeful Spirit died with a burning desire for retribution. She returned as a vengeful entity, capable of turning enemies against one another and teleporting short distances to exact her revenge. She walks the battlefield as a reminder that treachery cannot go unpunished.",
+      "primaryAttr": "int",
+      "roles": ["Support", "Carry"],
+      "abilities": ["Magic Missile", "Wave of Terror", "Nether Swap", "Mystic Angles"],
+      "photo": "https://opendota.com/cdn/heroposes/vengeful_spirit.jpg"
     }
   ]
 }
